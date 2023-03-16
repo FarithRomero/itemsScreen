@@ -1,5 +1,3 @@
-# itemsScreen
-
 # Description
 
 This is an application for Roku platform, it is a sample channel that displays a list of items served from an API.
@@ -12,9 +10,5 @@ This is an application for Roku platform, it is a sample channel that displays a
 + Play video of the focused item.
 
 
-### Design
-
-|Screen| How it looks |
-|------| ------ |
-|Splash| ![](https://drive.google.com/file/d/1Vh7AGhml0fmW8kjaETBFmAhr9aWmjaA7/view?usp=share_link) |
-|Main| ![](https://drive.google.com/file/d/1yevYhEb14rimowYsF91OnrC7bfe8uCPv/view?usp=share_link) |
+## Design
+ <img width="1270" alt="mainScreen" src="https://user-images.githubusercontent.com/108958013/225528860-9f3feaa1-cd6f-417a-8fc2-2eeef08b0de7.png">
