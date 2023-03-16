@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MainScreen" extends="Scene">
+      
+    <script type="text/brightscript" uri="mainScreen.brs" /> 
+
+    <children>         
+        <MovieViewer
+            id = "movieViewer"/> 
+        <DataMovie
+            id = "dataMovieScreen" />
+        <Rectangle
+            width="659"
+            height="263"
+            color="0x747F7F"
+            translation="[97,671]"/>
+        <LayoutGroup
+            id ="itemList"
+            layoutDirection = "horiz"
+            translation ="[100,674]"
+            itemSpacings = "[35]"/>
+    </children>
+</component>

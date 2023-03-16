@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="DataMovie" extends="Group">
+
+    <interface>
+        <field id="titleMovie" type="string" alias="titleMovie.text" />
+        <field id="subtitleMovie" type="string" alias="subtitleMovie.text" />
+        <field id="descriptionMovie" type="string" alias="descriptionMovie.text" />
+    </interface>
+
+    <script type="text/brightscript" uri="dataMovie.brs" /> 
+
+    <children>  
+        <Label
+            id="titleMovie"
+            height="50"
+            width="500"
+            color= "0xFFFFFF"
+            font="font:LargeBoldSystemFont"
+            horizAlign="left"
+            vertAlign="center"
+            translation="[100,150]">
+            <Label
+                id="subtitleMovie"
+                height="50"
+                width="500"
+                color="0xEFEF0B"
+                font="font:SmallestBoldSystemFont"
+                horizAlign="left"
+                vertAlign="center"
+                translation="[0,50]" /> 
+            <Label
+                id="descriptionMovie"
+                height="250"
+                width="807"
+                color="0xFFFFFF"
+                font="font:SmallestSystemFont"
+                wrap="true"
+                lineSpacing="5"
+                horizAlign="left"
+                vertAlign="top"
+                translation="[0,150]" />
+        </Label>
+    </children>
+</component>

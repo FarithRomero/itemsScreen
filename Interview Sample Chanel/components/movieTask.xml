@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MovieTask" extends="Task">
+
+    <interface>
+        <field id="output" type="node" />
+    </interface>
+    
+    <script type="text/brightscript" uri="movieTask.brs" /> 
+ 
+    <children>
+    </children>
+</component>

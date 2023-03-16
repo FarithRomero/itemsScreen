@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="Item" extends="Group">
+
+    <interface>
+        <field id="moviePoster" type="uri" alias="moviePoster.uri" />
+        <field id="subtitleItemLabel" type="string" alias="SubtitleItemLabel.text" />
+        <field id="titleMovieItemLabel" type="string" alias="titleMovieItemLabel.text" />
+        <field id="descriptionMovieLabel" type="string" alias="descriptionMovieLabel.text" />
+        <field id="urlVideo" type="string" />
+        <field id="content" type="node" OnChange ="onContentChanged" />
+    </interface>
+
+    <script type="text/brightscript" uri="item.brs" /> 
+
+    <children>  
+        <LayoutGroup
+            id="itemLayoutGroup"
+            layoutDirection = "horiz"
+            horizAlignment="center">
+            <Poster
+                id="moviePoster"
+                width="327"
+                height="258"/>
+            <Poster
+                id="infoMovieBackground"
+                uri="pkg:/images/backgroundItem.jpg"
+                width="326"
+                height="258">
+               <Label
+                    id="titleMovieItemLabel"
+                    height="80"
+                    width="289"
+                    color="0xFFFFFF"
+                    font="font:SmallestBoldSystemFont"
+                    wrap="true"
+                    lineSpacing="5"
+                    horizAlign="left"
+                    vertAlign="center"
+                    translation="[15,7]"/>      
+                <Label
+                    id="descriptionMovieLabel"
+                    height="120"
+                    width="289"
+                    color="0xFFFFFF"
+                    font="font:SmallestSystemFont"
+                    wrap="true"
+                    lineSpacing="8"
+                    horizAlign="left"
+                    vertAlign="center"
+                    translation="[14,97]" />   
+                <Label
+                    id="subtitleItemLabel"
+                    height="20"
+                    width="187"
+                    color="0xFFFFFF"
+                    font="font:SmallestSystemFont"
+                    horizAlign="right"
+                    vertAlign="center"
+                    translation="[125,230]"/>                 
+            </Poster>    
+        </LayoutGroup>  
+    </children>
+</component>

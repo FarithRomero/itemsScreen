@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MovieViewer" extends="Group">
+
+    <interface>
+        <field id="videoUrl" type="string" onChange="onVideoUrlChange"/>
+    </interface>
+    
+    <script type="text/brightscript" uri="movieViewer.brs" /> 
+
+    <children>         
+        <Video
+            id="video"
+            translation="[861,-78]"
+            width="1020"
+            height="800"/>
+        <Poster
+            translation="[862,471]"
+            width="1200"
+            height="150"
+            uri="pkg:/images/gradientBottom.png" />
+        <Poster
+            translation="[857,0]"
+            width="100"
+            height="615"
+            uri="pkg:/images/gradientRight.png" />
+    </children>
+</component>
