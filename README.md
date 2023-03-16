@@ -1,5 +1,4 @@
 # itemsScreen
-Interview sample channel
 
 # Description
 
